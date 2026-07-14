@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+main .container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.container .img{
+    height: 350px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    right: 50%;
+}
+
+.container .img1 {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+.container .img2 {
+    height: 250px;
+    width: 250px;
+    display: flex;
+    position: absolute;
+    top: 72%;
+    left: 15%;
+}
+.container .img2 img {
+    height: 100%;
+    width: 100%;
+    opacity: 0.1;
+}
+
+
+
+.container .menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30px;
+    left: 95%;
+    outline: none;
+}
+
+
+.container .menu i {
+    font-size: 40px;
+}
+
+.left-box {
+    height: 100%;
+    width: 60%;
+    background-color: #fac600;
+}
+
+.left-box .box1h1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 70px;
+}
+
+.box1h1 .line1 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+
+
+.box1h1 .line1 .line{
+    height: 3px;
+    width: 50px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.664);
+    
+}
+
+.line1 .span {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.left-box .box1h1 h6 {
+    font-size: 15px;
+    letter-spacing: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.left-box .box1h1 h1 {
+    font-size: 150px;
+}
+
+.left-box .box1h1 p {
+    color: #222;
+    margin-left: 10px;
+    letter-spacing: 2px;
+    line-height: 1.8;    
+}
+
+.right-box {
+    height: 100%;
+    width: 40%;
+    background-color: #FDE9A0;
+}
+
+.right-box .con {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50%;
+    left: 90%;
+    gap: 20px;
+
+}
+
+.right-box .con .box21 {
+    background-color: #fac600;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+}
+
+.right-box .con .box21:first-child{
+    background-color: black;
+}
