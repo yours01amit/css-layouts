@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #0b0b0b; 
+}
+
+main {
+    padding: 20px 10%;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.heading h1 {
+    text-align: center;
+    color: #f3f3f3;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container .box {
+    position: relative; 
+    height: 420px;
+    width: 280px;
+    border: 1px solid rgba(255, 100, 0, 0.4); 
+    box-shadow: 0px 0px 20px rgba(255, 100, 0, 0.15);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.box img {
+    height: 50%;
+    object-fit: contain; 
+    margin-top: 20px;
+}
+
+
+.box .text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.text .tag {
+    position: absolute;
+    top: -160px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11px;
+    color: #ff8400;
+    border: 1px solid rgba(255, 132, 0, 0.4);
+    padding: 4px 10px;
+    border-radius: 20px;
+    background: rgba(255, 132, 0, 0.05);
+}
+
+.text h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.text .desc {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.text h4 {
+    font-size: 1.2rem;
+    color: #ff8400; 
+    margin-top: 10px;
+}
+
+.container2 {
+    height: 250px;
+    width: 100%;
+    background-color: #121212;
+    border-radius: 20px;
+    border: 1px solid #222;
+}

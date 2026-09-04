@@ -895,7 +895,26 @@
 // Que->4 Create a simple discount calculator.
 
 
+// let price = Number(prompt("Enter the price for discount: "));
+// let discount;
+// if(price>=1000 && price<=5000){
+//     discount = price -(price*10)/100;
+// } else if(price>5000 && price <=10000){
+//     discount = price - (price*20)/100;
+// } else {
+//     if (price < 1000){
+//         discount = price - (price * 5)/100;
+//     } else {
+//         discount = price - (price * 15)/100;
+//     }
+    
+// }
+// console.log(discount);
+
+
 // Que->5 Check whether a product is in stock.
+
+
 // Que->6 Calculate final bill after GST.
 
 
@@ -912,3 +931,6 @@
 // Que->8 Create a mini ATM balance checker.
 // Que->9 Simulate a traffic light system using `switch`.
 // Que->1. Build a small marksheet generator using variables and conditionals.
+
+
+

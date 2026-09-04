@@ -1,14 +1,31 @@
-const bulb = document.querySelector(".bulb");
+//  DOM --> document object module
+//  BOM --> browser object module
+//  CSS OM --> css object module
 
-const btn = document.querySelector("button");
+// HTML ---> convert ---> OBJECT ---> JAVASCRIPT --> can read this object
+
+
+// console.log --> part of browser
+// DOM --> part of browser
+// BOM --> part of browser
+// web API --> part of browser
+// javascript --> v8 engine
 
 
 
-btn.addEventListener('click', function(){
-    if(bulb.classList.toggle("lightUp")){
-        btn.textContent = "off"
-    } else {
-        btn.textContent = "On";
-    }
-});
+// browser ---> DOM ---> BOM ---> Web API's ---> JavaScript
+
+
+// DOM --> document, events, dom APIs
+// BOM --> console.log, history, navigator, window, location 
+// web API's --> fetch, setTimeOut, websocket
+// javascript --> variables, arrays, objects, promises, functions, classes
+
+
+
+//             -------------------- DOM ----------------------
+
+
+// behind the seen working 
+// browser ~ server
 
