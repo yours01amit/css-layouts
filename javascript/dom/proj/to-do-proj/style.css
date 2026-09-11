@@ -35,7 +35,7 @@ input {
     border-radius: 5px;
 }
 
-#add {
+.add {
     padding: 10px 30px;
     border-radius: 10px;
     border: 2px solid gray;
@@ -76,9 +76,9 @@ h3 {
 }
 
 .btn {
-    padding: 5px 25px;
+    padding: 5px 15px;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .edit {

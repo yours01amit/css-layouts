@@ -29,3 +29,11 @@
 // behind the seen working 
 // browser ~ server
 
+h1 = document.querySelector("h1")
+
+// h1.textContent = "believe";
+
+// h1.innerHTML = "believe"
+
+
+ 
